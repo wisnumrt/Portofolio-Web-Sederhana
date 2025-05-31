@@ -1,14 +1,15 @@
 // Fungsi text mengetik
 $(document).ready(function() {
     const textElement = $('.header-right h2');
-    const text = "Data Enthusiast";
+    const text = "Data & IT Enthusiast";
     const speed = 155;
+    
     textAnimation(textElement, text, speed);
     
     function textAnimation(textElement, text, speed) {
         let i = 0;
         let isDeleting = false;
-    
+        
         function type() {
             if (i < text.length && !isDeleting) {
                 textElement.text(textElement.text() + text.charAt(i));
@@ -23,7 +24,7 @@ $(document).ready(function() {
                 setTimeout(type, speed);
             }
         }
-    
+        
         type();
     }
 });
@@ -33,13 +34,13 @@ $(document).ready(function() {
     let position = 0, direction = 1;
     
     function moveImage() {
-         if (position >= 13 || position <= -13) direction *= -1;
+        if (position >= 13 || position <= -13) direction *= -1;
         position += direction;
         headerImage.css('transform', `translateY(${position}px)`);
         setTimeout(moveImage, 50);
     }
     
-     moveImage();
+    moveImage();
 });
 
 $(document).ready(function() {

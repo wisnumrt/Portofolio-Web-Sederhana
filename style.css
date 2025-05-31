@@ -224,7 +224,7 @@ header{
 }
 .edu-box{
     padding: 24px;
-    text-align: left;
+    text-align: justify;
     border: 1px solid var(--color-dark-variant);
     border-radius: 10px;
     width: 100%;
