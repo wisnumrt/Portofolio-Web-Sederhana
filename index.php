@@ -21,7 +21,7 @@
         $occupation = "Data Enthusiast";
         $img_src = "./assets/wisnupic.png";
         $download_cv_link = "./assets/CV.pdf";
-        $linkedin_link = "https://www.linkedin.com/in/wisnumrt";
+        $linkedin_link = "https://www.linkedin.com/in/wisnmrt";
         $instagram_link = "https://www.instagram.com/wismrt_?igsh=dTVsMGcwaDhwdWNp";
         $about_text = "I am an undergraduate student currently studying at the Department of Informatics, UPN Veteran East Java. In my educational journey, I am passionate about improving my knowledge and skills in the field of technology and hope to contribute to the development of the field of information technology in the future. I have a great interest in learning data, database management and UI/UX designer and interested in developing these skills. I have experience in teamwork, public relations and leadership in campus activities.";
         $email = "wisnumurti982@gmail.com";
